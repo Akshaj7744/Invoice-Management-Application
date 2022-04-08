@@ -1,0 +1,46 @@
+
+  * {
+    margin : 0;
+    padding : 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #2a3e4c;
+    color: white;
+}
+
+table, form{
+    background-color: #283a46;
+    align-items: center;
+    display: flex;
+}
+
+header, footer {
+    display: flex;
+    margin: 5px;
+    padding-bottom: 3rem;
+    background-color: #2a3e4c;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    padding-top: 2rem;
+}
+
+.abc-logo {
+    width: 45%;
+}
+
+.hrc-logo {
+    width: 55%;
+}
+
+.invoice-list {
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 22px;
+}
+
